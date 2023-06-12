@@ -14,7 +14,7 @@ repo = g.get_repo(f"{repository_owner}/{repository_name}")
 files = repo.get_contents('')
 
 
-excel_directory = "C:/Users/utente1/Desktop/DCFs/"
+excel_directory = "Path/to/downloaded/DCFs/repo "
 
 data = pd.DataFrame(columns=['File', 'Street Estimates implied value'])
 
